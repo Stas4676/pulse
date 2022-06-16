@@ -1,0 +1,42 @@
+.feedback {
+    min-height: 950px;
+    padding-bottom: 50px;
+    h2 {
+        margin-bottom: 68px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+		min-height: 820px;
+		justify-content: space-between;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+		img {
+			height: 169px;
+			width: 169px;
+		}
+    }
+    &__items {
+        width: 655px;
+    }
+	&__title {
+		font-size: 18px;
+		color: #0d0d0d;
+		font-weight: 700;
+	}
+	&__subtitle {
+		font-size: 14px;
+		color: #646464;
+		font-weight: 300;
+	}
+	&__descr {
+		margin-top: 15px;
+		font-size: 16px;
+		color: #0d0d0d;
+		font-weight: 500;
+		line-height: 20px;
+	}
+}

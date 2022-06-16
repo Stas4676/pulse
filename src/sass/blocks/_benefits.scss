@@ -1,12 +1,6 @@
 .benefits {
 	min-height: 470px;
 	padding: 75px 0 77px 0;
-	&__title {
-		margin: 0 auto;
-		font-size: 30px;
-		font-weight: 500;
-		text-align: center;
-	}
 	&__wrapper {
 		margin-top: 58px;
 		display: flex;
@@ -15,7 +9,7 @@
 	&__icons {
 		width: 275px;
 		text-align: center;
-		}
+	}
 	&__subtitle {
 		margin-top: 37px;
 		font-size: 18px;
@@ -30,6 +24,14 @@
 			color: $main-color;
 			text-transform: uppercase;
 			text-decoration: underline;
+		}
+	}
+	&__pic {
+		&_animated {
+			animation: heartbeat 1.5s ease infinite;
+			&:hover {
+				animation-play-state: paused;
+			}
 		}
 	}
 }
